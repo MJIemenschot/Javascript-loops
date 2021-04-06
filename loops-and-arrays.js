@@ -6,6 +6,11 @@
 
 const names = ["Henk", "Piet", "Fred", "Joop"];
 
+for(let i = 0; i < names.length; i++) {
+    console.log(names[i] + "je");
+}
+
+
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(names) geeft: ["Henk", "Piet", "Fred", "Joop"]
@@ -19,13 +24,17 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 // Zorg ervoor dat dit ook zou werken als de array wel 100 of 200 getallen zou bevatten!
 // ==========================================
 
-const numbers = [2, 4, 5, 29, 38];
+let numbers = [2, 4, 5, 29, 38];
+for(let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i] * 3);
+}
 
 // Verwachtte uitkomsten:
 // Vóór het script zie je de originele waardes:
 // console.log(numbers) geeft: [2, 4, 5, 29, 38];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [ 6, 12, 15, 87, 114 ];
+
 
 
 // ==========================================
@@ -42,3 +51,5 @@ const squares = [30, 2, 8, 24, 11];
 // console.log(numbers) geeft: [30, 2, 8, 24, 11];
 // Na jouw script zie je de aangepaste waardes:
 // console.log(numbers) geeft: [27000, 8, 512, 13824, 1331];
+
+// ??? pfft!  ik zie nergens een vierkant in, maar ik haat dan ook wiskunde.
